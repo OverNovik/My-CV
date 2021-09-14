@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header';
+import Layout from './Layout';
 import appStyle from './style.module.css';
 
 const App = () => {
   return (
-    <div className={appStyle.App}>
-      <Header />
-    </div>
+    <>
+      <Layout />
+    </>
   );
 };
 
